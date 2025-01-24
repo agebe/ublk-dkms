@@ -1,6 +1,9 @@
 Source: ublk-dkms
+Section: kernel
+Priority: optional
 Maintainer: Andre Gebers <andre.gebers@gmail.com>
 Build-Depends: debhelper (>= 9), dkms
+Standards-Version: 4.5.1
 
 Package: ublk-dkms
 Architecture: all
