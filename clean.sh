@@ -1,4 +1,4 @@
 #!/bin/bash
 rm -f ublk-dkms_*
 ( cd ublk-dkms; debian/rules clean )
-#rm -rf ublksrv/debian/build
+rm -f ublk-dkms/debian/src/ublk_drv.c
