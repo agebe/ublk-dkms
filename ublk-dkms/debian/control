@@ -1,0 +1,8 @@
+Source: ublk-dkms
+Maintainer: Andre Gebers <andre.gebers@gmail.com>
+Build-Depends: debhelper (>= 9), dkms
+
+Package: ublk-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Description: DKMS source for the ublk driver
