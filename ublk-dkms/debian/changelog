@@ -1,5 +1,5 @@
 ublk-dkms (6.1.123) UNRELEASED; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * dkms for in-tree module ublk_drv which is currently not included in bookworm. https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/block/ublk_drv.c
 
  -- Andre Gebers <andre.gebers@gmail.com>  Sat, 25 Jan 2025 03:30:16 +1000
