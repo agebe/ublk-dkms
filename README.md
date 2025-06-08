@@ -6,6 +6,7 @@ load the module after install.
 ```
 modprobe ublk_drv
 lsmod | grep ublk
+modinfo ublk_drv
 ```
 
 # DKMS
